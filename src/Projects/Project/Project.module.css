@@ -1,0 +1,32 @@
+.project{
+    width: 350px;
+    height: 250px;
+    background-color: #a49162;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.description{
+    background-color: gray;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color: #c4b2af;
+}
+.title{
+    text-align: left;
+    background-color: greenyellow;
+    width: 350px;
+}
+.text{
+    margin: 0;
+    background-color: darkviolet;
+    border: 1px solid;
+    width: 250px;
+    padding: 15px;
+    height: max-content;
+    text-align: left;
+}
