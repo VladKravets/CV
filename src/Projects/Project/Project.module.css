@@ -19,7 +19,7 @@
 .title{
     text-align: left;
     background-color: greenyellow;
-    width: 350px;
+    width: max-content;
 }
 .text{
     margin: 0;
