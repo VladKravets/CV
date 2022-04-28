@@ -1,0 +1,65 @@
+@import './src/comman/styles/SASS/variables';
+@import './src/comman/styles/SASS/mixines';
+
+.project {
+  width: 500px;
+  background-color: $bgSecondColor;
+  display: flex;
+  flex-direction: column;
+
+  .imageProject {
+    height: 300px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: #000;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: .4;
+    }
+
+    .buttonProject {
+      text-decoration: none;
+      user-select: none;
+      background-color: $primaryColor;
+      padding: 10px 25px;
+      position: relative;
+      z-index: 1;
+      color: $textColor;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .title {
+      @include text($titleFontFamily, 16px, 1.2);
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+
+    }
+
+    .description {
+      @include text($textFontFamily, 12px, 1.8);
+      font-weight: 400;
+    }
+  }
+}
+
+
+
+
+
+
+
+

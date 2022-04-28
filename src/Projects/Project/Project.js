@@ -1,10 +1,10 @@
 import React from 'react';
-import style from './Project.module.css'
+import style from './Project.module.scss'
 
 export const Project = (props) => {
     return (
         <div className={style.project}>
-            <div className={style.imageProject}>
+            <div className={style.imageProject} style={props.style}>
                 <a className={style.buttonProject} href="#">Посмотреть</a>
             </div>
             <div className={style.projectInfo}>
