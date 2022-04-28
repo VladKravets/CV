@@ -1,12 +1,11 @@
 .project{
-    width: 350px;
-    background-color: #d2e2ff;
+    width: 450px;
+    background-color: #252527;
     display: flex;
     flex-direction: column;
 }
 .imageProject{
-    width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: #c4b2af;
     display: flex;
     justify-content: center;
@@ -18,10 +17,21 @@
     background-color: #9ea408;
     padding: 10px 25px;
 }
+.projectInfo{
+ padding: 25px 20px;
+}
 .title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
     background: #727294;
+    margin: 0 0 5px;
 }
 .description{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 12px;
     background: #727294;
-
+    color:#fff
 }

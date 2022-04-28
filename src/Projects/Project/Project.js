@@ -1,14 +1,16 @@
 import React from 'react';
 import style from './Project.module.css'
 
-export const Project = () => {
+export const Project = (props) => {
     return (
         <div className={style.project}>
             <div className={style.imageProject}>
                 <a className={style.buttonProject} href="#">Посмотреть</a>
             </div>
-            <h3 className={style.title}>Название проекта</h3>
-            <p className={style.description}>Краткое описание</p>
+            <div className={style.projectInfo}>
+            <h3 className={style.title}>{props.title}</h3>
+            <span className={style.description}>{props.description}</span>
+            </div>
         </div>
     );
 };
