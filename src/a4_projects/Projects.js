@@ -8,7 +8,7 @@ import imgThree from '../assets/images/gallery-photo-3.png'
 import imgFour from '../assets/images/gallery-photo-4.png'
 import imgFive from '../assets/images/gallery-photo-5.png'
 import imgSix from '../assets/images/gallery-photo-6.png'
-import imgSeven from '../assets/images/gallery-photo-7.jpg'
+import imgSeven from '../assets/images/gallery-photo-7.png'
 import imgEight from '../assets/images/gallery-photo-8.png'
 
 
