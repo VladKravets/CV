@@ -1,15 +1,29 @@
-import React from 'react';
-import style from './Nav.module.css'
+import React from 'react'
+import s from './Nav.module.scss';
+import BurgerMenu from "./BurgerMenu/BurgerMenu";
+import {Link} from "react-scroll";
 
-
-export const Nav = () => {
+function Nav() {
+    const items = ['home', 'skills', 'portfolio', 'contacts']
     return (
-        <div className={style.nav}>
-            <a href="">Home</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contacts</a>
+        <div className={s.navigation}>
+            <div className={s.container}>
+                {items.map((item, index) =>
+                    <Link
+                        key={index}
+                        className={s.link}
+                        activeClass={s.active}
+                        to={item}
+                        spy={true}
+                        smooth={true}
+                        offset={-99}
+                        duration={500}
+                    >{item}</Link>
+                )}
+                <BurgerMenu items={items}/>
+            </div>
         </div>
     );
-};
+}
 
+export default Nav;
