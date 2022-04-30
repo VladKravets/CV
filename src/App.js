@@ -9,7 +9,6 @@ import Skills from "./a3_skills/Skills";
 import Contacts from "./a6_contacts/Contacts";
 
 
-
 function App() {
     return (
         <div className='App'>
