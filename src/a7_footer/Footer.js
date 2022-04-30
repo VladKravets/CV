@@ -22,7 +22,7 @@ function Footer() {
     return (
         <div className={styles.footerBlock}>
             <div className={styles.footerContainer}>
-                <h2>Vladislav Kravets</h2>
+                <h2 className={styles.title}>Vladislav Kravets</h2>
                 <div className={styles.items}>
                     <a href="https://www.linkedin.com/in/vladkravets/" target="_blank">
                         <div style={lincedInStyle} className={styles.item}></div>
