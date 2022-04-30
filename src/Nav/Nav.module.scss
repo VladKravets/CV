@@ -34,18 +34,17 @@
 
       &::after {
         width: 0;
-        background: #afafaf none repeat scroll 0 0;
         content: "";
         height: 3px;
         left: 0;
         position: absolute;
         top: 50%;
         transform: translate(-0, -50%);
-        transition: all .3s ease-in-out;
+        transition: all .8s ease-in-out;
       }
 
       &:hover {
-        @include text(#afafaf, 14px, 650, 40px, 0.40px);
+        @include text(#a21717, 14px, 650, 40px, 0.40px);
 
         &::after {
           width: 100%;
@@ -54,7 +53,7 @@
     }
 
     .active {
-      @include text(#afafaf, 14px, 650, 40px, 0.40px);
+      @include text(#2c0000, 14px, 650, 40px, 0.40px);
 
       &::after {
         width: 100%;

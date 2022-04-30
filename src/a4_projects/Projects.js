@@ -22,30 +22,17 @@ function Projects() {
                         title={"todolist"}
                         img={imgOne}
                         description={"TS, Redux, RestAPI, Thunk,Material UI, Unit Tests"}
-                        link={"https://Ekaterina112.github.io/it-incubator-todolist-ts"}/>
+                        link={"#"}/>
                     <Project
                         title={"counter"}
                         img={imgTwo}
                         description={"My first project with React/Redux/TS.I left It here as a memory."}
-                        link={"https://Ekaterina112.github.io/counter-with-redux"}/>
-
+                        link={"#"}/>
                     <Project
                         title={"the social network"}
                         img={imgThree}
                         description={"TS, Redux, RestAPI, Thunk,ANT Design, Unit Tests"}
-                        link={"https://Ekaterina112.github.io/TheSocialNetwork/"}/>
-
-                    <Project
-                        title={"Study Point"}
-                        img={imgFour}
-                        description={"It was a command work. App for learning some cards"}
-                        link={"https://sergey-lang.github.io/Card-Learning/#/login"}/>
-
-                    <Project
-                        title={"Rainfo"}
-                        img={imgFive}
-                        description={"It's my first project with Next.JS"}
-                        link={"https://weather-app-kohl-eight.vercel.app/"}/>
+                        link={"#"}/>
 
                     <Project
                         title={"future project"}
@@ -55,7 +42,7 @@ function Projects() {
 
                     <Project
                         title={"future project"}
-                        img={imgSeven}
+                        img={imgFour}
                         description={"...in progress"}
                         link={"link #1"}/>
 
