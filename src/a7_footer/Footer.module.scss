@@ -1,37 +1,28 @@
-@import './../common/styles/sass/variables';
-@import './../common/styles/sass/mixins';
+.footerBlock {
+
+}
 
 .footerContainer {
   display: flex;
-  padding: 10px 0;
-  @include container();
-  @media screen and (max-width: 640px) {
-    & {
-      justify-content: center;
-    }
-  }
-
-  .copyRightBlock {
-    @include text($textColorFooter, 13px, 400, 19px, normal);
-  }
-
-  ul {
-    display: flex;
-    padding: 0;
-    list-style-type: none;
-
-    a {
-      padding: 0 13px;
-      @include text($textColorFooter, 13px, 400, 19px, normal);
-      text-transform: uppercase;
-      text-decoration: none;
-
-      &:hover {
-        color: #000000;
-      }
-    }
-  }
+  flex-direction: column;
 }
 
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+.item {
+  margin: 15px;
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+}
+
+.copyright {
+  margin: 15px;
+}
 
