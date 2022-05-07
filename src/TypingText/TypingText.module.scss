@@ -1,5 +1,10 @@
 .textIntroAccent{
   color: #e09e1a;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+}
+@media only screen and (max-width: 499px) {
+  .textIntroAccent {
+    font-size: 18px;
+  }
 }
