@@ -11,6 +11,7 @@
     width: 500px;
     text-align: left;
 
+
     h1 {
       @include text($textColorH1,38px,700,40px,normal);
       text-transform: uppercase;
@@ -22,11 +23,7 @@
       @include text($textColorH5,16px,700,40px, 1px);
       margin: 0 0 15px;
       text-transform: uppercase;
-      .frontend{
-        color: #9a9a17;
-        font-weight: bold;
-        font-size: 20px;
-      }
+
     }
 
   }
