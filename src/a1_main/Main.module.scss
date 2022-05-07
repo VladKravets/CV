@@ -1,7 +1,6 @@
 @import './../common/styles/sass/variables';
 @import './../common/styles/sass/mixins';
 
-
 .mainBlock {
   min-height: 90vh;
   @include flexable(space-between,center,column);
@@ -23,6 +22,11 @@
       @include text($textColorH5,16px,700,40px, 1px);
       margin: 0 0 15px;
       text-transform: uppercase;
+      .frontend{
+        color: #9a9a17;
+        font-weight: bold;
+        font-size: 20px;
+      }
     }
 
   }

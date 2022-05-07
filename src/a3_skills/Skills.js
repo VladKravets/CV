@@ -5,7 +5,6 @@ import Title from "../common/components/title/Title";
 import {faBriefcase, faLaptopCode, faTasks} from "@fortawesome/free-solid-svg-icons";
 import {faSketch} from "@fortawesome/free-brands-svg-icons";
 
-
 function Skills() {
     return (
         <div className={styles.skillsBlock} id='skills'>

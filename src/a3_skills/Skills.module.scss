@@ -8,11 +8,12 @@
     flex-direction: column;
     @include container();
     .skills {
-      margin-top: 60px;
-      width: 100%;
       display: flex;
       justify-content: space-evenly;
+      align-items: center;
       flex-wrap: wrap;
+      margin-top: 60px;
+      width: 100%;
     }
   }
 }
