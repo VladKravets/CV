@@ -2,14 +2,14 @@ import React from 'react'
 import styles from './Projects.module.scss';
 import {Project} from "./project/Project";
 import Title from "../common/components/title/Title";
-import imgOne from './../assets/images/gallery-photo-1.png'
-import imgTwo from '../assets/images/gallery-photo-2.png'
-import imgThree from '../assets/images/gallery-photo-3.png'
-import imgFour from '../assets/images/gallery-photo-4.png'
-import imgFive from '../assets/images/gallery-photo-5.png'
+import imgOne from './../assets/images/gallery-photo-1.jpg'
+import imgTwo from '../assets/images/gallery-photo-2.jpg'
+import imgThree from '../assets/images/gallery-photo-3.jpg'
+import imgFour from '../assets/images/gallery-photo-4.jpg'
+import imgFive from '../assets/images/gallery-photo-5.jpg'
 import imgSix from '../assets/images/gallery-photo-6.png'
-import imgSeven from '../assets/images/gallery-photo-7.png'
-import imgEight from '../assets/images/gallery-photo-8.png'
+import imgSeven from '../assets/images/gallery-photo-7.jpg'
+import imgEight from '../assets/images/gallery-photo-8.jpg'
 
 
 function Projects() {
@@ -19,7 +19,7 @@ function Projects() {
                 <Title title={'My portfolio'}/>
                 <div className={styles.projects}>
                     <Project
-                        title={"todolist"}
+                        title={"To do list"}
                         img={imgOne}
                         description={"TS, Redux, RestAPI, Thunk,Material UI, Unit Tests"}
                         link={"#"}/>
@@ -36,16 +36,26 @@ function Projects() {
 
                     <Project
                         title={"future project"}
-                        img={imgSix}
+                        img={imgFour}
                         description={"...in progress"}
                         link={"link #6"}/>
 
                     <Project
-                        title={"future project"}
-                        img={imgFour}
+                        title={"Weather app"}
+                        img={imgFive}
                         description={"...in progress"}
                         link={"link #1"}/>
 
+                    <Project
+                        title={"future project "}
+                        img={imgSix}
+                        description={"...in progress"}
+                        link={"link #2"}/>
+                    <Project
+                        title={"future project "}
+                        img={imgSeven}
+                        description={"...in progress"}
+                        link={"link #2"}/>
                     <Project
                         title={"future project "}
                         img={imgEight}
