@@ -4,8 +4,8 @@ import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
 import {faBriefcase, faLaptopCode, faTasks} from "@fortawesome/free-solid-svg-icons";
 import {faSketch} from "@fortawesome/free-brands-svg-icons";
-import logo from '../assets/images/gallery-photo-4.jpg'
 function Skills() {
+
     return (
         <div className={styles.skillsBlock} id='skills'>
             <div className={styles.skillsContainer}>

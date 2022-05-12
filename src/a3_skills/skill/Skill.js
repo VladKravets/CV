@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from './Skill.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 function Skill({title, description, titleIcon}) {
+    const [skills,setSkills]=useState([])
     return (
         <div className={styles.skill}>
             <div className={styles.image}>
