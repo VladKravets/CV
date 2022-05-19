@@ -2,7 +2,8 @@ import React from 'react'
 import styles from './Main.module.scss';
 import photo from '../assets/images/photo.jpg'
 import {TypingEffect} from "../TypingText/Typing-effect";
-
+import Button from "../common/button/Button";
+import cv from '../assets/cv/cv.pdf'
 
 
 function Main() {
@@ -15,9 +16,9 @@ function Main() {
                     <h5>Hello, my name is</h5>
                     <h1>Vladislav Kravets</h1>
                     <h5>I'm <TypingEffect/></h5>
-                    {/*<a href={cv} download={true}>
-                        <Button title={'download my cv'}/>
-                    </a>*/}
+                    <a href={cv} download={true}>
+                        <Button title={'Download cv'}/>
+                    </a>
                 </div>
                 <div className={styles.photo}>
                     <img src={photo} alt="it's me"/>
