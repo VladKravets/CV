@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Main.module.scss';
-import photo from '../assets/images/photo.jpg'
+import photo from '../assets/images/photo1.png'
 import {TypingEffect} from "../TypingText/Typing-effect";
 import Button from "../common/button/Button";
 import cv from '../assets/cv/cv.pdf'

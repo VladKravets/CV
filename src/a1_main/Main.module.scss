@@ -3,24 +3,26 @@
 
 .mainBlock {
   min-height: 90vh;
-  @include flexable(space-between,center,column);
-  .container{
+  @include flexable(space-between, center, column);
+
+  .container {
     @include container();
   }
+
   .greeting {
     width: 500px;
     text-align: left;
 
 
     h1 {
-      @include text($textColorH1,38px,700,40px,normal);
+      @include text($textColorH1, 38px, 700, 40px, normal);
       text-transform: uppercase;
       margin: 0 0 15px;
       line-height: 1.1;
     }
 
     h5 {
-      @include text($textColorH5,16px,700,40px, 1px);
+      @include text($textColorH5, 16px, 700, 40px, 1px);
       margin: 0 0 15px;
       text-transform: uppercase;
 
@@ -31,15 +33,16 @@
   .photo {
     display: flex;
     flex-direction: column;
-    width:500px;
+    width: 500px;
 
     img {
       height: auto;
       width: 100%;
       max-width: 720px;
-      &:hover {
-        border: 3px solid #1f221f; /* Ширина, вид и цвет рамки */
-      }
+      background-image: url("https://www.seekpng.com/png/full/21-215129_brush-strokes-orange-paint-brush-png.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
     }
   }
 }
