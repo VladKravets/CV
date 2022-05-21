@@ -8,14 +8,19 @@ nav {
 
 
 .burgerBtn {
+    opacity: 0;
     cursor: pointer;
     margin-left: 15px;
     position: relative;
-    font-size: 14px;
+    font-size: 25px;
     color: #777777;
 }
+@media screen and (max-width: 564px) {
+    .burgerBtn {
+    opacity: 1;
+    }
+}
 .active{
-
 }
 
 

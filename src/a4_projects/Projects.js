@@ -22,7 +22,7 @@ function Projects() {
                         title={"To do list"}
                         img={imgOne}
                         description={"TS, Redux, RestAPI, Thunk,Material UI, Unit Tests"}
-                        link={"#"}/>
+                        link={"https://vladkravets.github.io/Todolist/"}/>
                     <Project
                         title={"counter"}
                         img={imgTwo}
@@ -32,7 +32,7 @@ function Projects() {
                         title={"the social network"}
                         img={imgThree}
                         description={"TS, Redux, RestAPI, Thunk,ANT Design, Unit Tests"}
-                        link={"#"}/>
+                        link={"https://vladkravets.github.io/login"}/>
 
                     <Project
                         title={"future project"}
@@ -43,8 +43,8 @@ function Projects() {
                     <Project
                         title={"Weather app"}
                         img={imgFive}
-                        description={"...in progress"}
-                        link={"link #1"}/>
+                        description={'React/Redux,RestAPI.My project on which I practiced a request to the server and its processing'}
+                        link={"https://vladkravets.github.io/Weather-app/"}/>
 
                     <Project
                         title={"future project "}
