@@ -18,7 +18,8 @@
       @include text($colorForForm, 14px, 300, 26px, normal);
       border: none;
       border-bottom: 1px solid $colorForBorderInForm;
-      padding: 5px 0;
+      padding: 11px;
+      margin-right: 5px;
       font-family: $fontFamily;
       width: 49%;
     }
@@ -36,6 +37,7 @@
     border: 1px solid $colorForBorderInForm;
     margin: 40px 0 20px 0;
     padding: 11px;
+
     width: 95%;
     height: 100px;
     resize: none;
@@ -63,6 +65,5 @@
     }
   }
 }
-
 
 

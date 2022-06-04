@@ -12,7 +12,7 @@ function Main() {
         <div className={styles.mainBlock} id='home'>
             <div className={styles.container}>
                 <div className={styles.greeting}>
-                    
+
                     <h5>Hello, my name is</h5>
                     <h1>Vladislav Kravets</h1>
                     <h5>I'm <TypingEffect/></h5>
@@ -24,6 +24,7 @@ function Main() {
                     <img src={photo} alt="it's me"/>
                 </div>
             </div>
+
         </div>
     );
 }
