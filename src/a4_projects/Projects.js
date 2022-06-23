@@ -7,7 +7,7 @@ import imgTwo from '../assets/images/gallery-photo-2.jpg'
 import imgThree from '../assets/images/gallery-photo-3.jpg'
 import imgFour from '../assets/images/gallery-photo-4.jpg'
 import imgFive from '../assets/images/gallery-photo-5.jpg'
-import imgSix from '../assets/images/gallery-photo-6.png'
+import imgSix from '../assets/images/gallery-photo-6.jpg'
 import imgSeven from '../assets/images/gallery-photo-7.jpg'
 import imgEight from '../assets/images/gallery-photo-8.jpg'
 
@@ -24,10 +24,10 @@ function Projects() {
                         description={"TS, Redux, RestAPI, Thunk,Material UI, Unit Tests"}
                         link={"https://vladkravets.github.io/Todolist/"}/>
                     <Project
-                        title={"counter"}
+                        title={"play-cards"}
                         img={imgTwo}
                         description={"My first project with React/Redux/TS.I left It here as a memory."}
-                        link={"#"}/>
+                        link={"https://vladkravets.github.io/play-cards/"}/>
                     <Project
                         title={"the social network"}
                         img={imgThree}
@@ -47,10 +47,10 @@ function Projects() {
                         link={"https://vladkravets.github.io/Weather-app/"}/>
 
                     <Project
-                        title={"future project "}
+                        title={"PIZZA-app "}
                         img={imgSix}
                         description={"...in progress"}
-                        link={"link #2"}/>
+                        link={"https://vladkravets.github.io/Pizza-App/"}/>
                     <Project
                         title={"future project "}
                         img={imgSeven}
