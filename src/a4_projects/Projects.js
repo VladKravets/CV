@@ -32,7 +32,7 @@ function Projects() {
                         title={"the social network"}
                         img={imgThree}
                         description={"TS, Redux, RestAPI, Thunk,ANT Design, Unit Tests"}
-                        link={"https://vladkravets.github.io/login"}/>
+                        link={"https://vladkravets.github.io/socialNet/#/login"}/>
 
                     <Project
                         title={"future project"}
@@ -49,7 +49,7 @@ function Projects() {
                     <Project
                         title={"PIZZA-app "}
                         img={imgSix}
-                        description={"...in progress"}
+                        description={"Development in progress..."}
                         link={"https://vladkravets.github.io/Pizza-App/"}/>
                     <Project
                         title={"future project "}
