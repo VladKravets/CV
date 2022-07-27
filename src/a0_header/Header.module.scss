@@ -2,5 +2,5 @@
 
 .header {
   height: 80px;
-  @include flexable(flex-end,center,none);
+  @include flexable(flex-end, center, none);
 }

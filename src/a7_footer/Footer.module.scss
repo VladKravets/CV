@@ -8,10 +8,12 @@
   display: flex;
   flex-direction: column;
 }
-.title{
-  font-family:$fontFamily;
-  color:gray;
+
+.title {
+  font-family: $fontFamily;
+  color: gray;
 }
+
 .items {
   display: flex;
   justify-content: center;
